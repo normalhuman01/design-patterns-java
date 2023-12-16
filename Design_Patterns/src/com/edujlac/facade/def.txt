@@ -1,0 +1,11 @@
+The Facade Pattern provides a unified interface to a set of interfaces in a subsystem. Facade deﬁ nes a higher-level
+interface that makes the subsystem easier to use. 303/264
+
+/* DESIGN PRINCIPLE - The principle of least knowledge */
+Talk only with your immediate friends.
+The principle provides some guidelines: take any object; now from any method in that object,
+the principle tells us that we should only invoke methods that belong to:
+- The object itself
+- Objects passed in as a parameter to the method
+- Any object the method creates or instantiates
+- Any components of the object

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.edujlac.command.RemoteLoader</OriginalElement>
+  <nodes>
+    <node x="1199.6904761904764" y="383.0">com.edujlac.command.commands.CeilingFanOnCommand</node>
+    <node x="759.5952380952381" y="383.0">com.edujlac.command.commands.StereoOnWithCDCommand</node>
+    <node x="847.0952380952381" y="686.0">com.edujlac.command.RemoteLoader</node>
+    <node x="1016.6040812257918" y="32.0">com.edujlac.command.receiver.Stereo</node>
+    <node x="1469.2826526543631" y="0.0">com.edujlac.command.receiver.CeilingFan</node>
+    <node x="995.5952380952381" y="383.0">com.edujlac.command.commands.StereoOffCommand</node>
+    <node x="23.22744360902277" y="55.0">com.edujlac.command.receiver.Light</node>
+    <node x="197.59523809523807" y="383.0">com.edujlac.command.commands.LightOffCommand</node>
+    <node x="510.8481288448394" y="76.0">com.edujlac.command.commands.Command</node>
+    <node x="17.595238095238074" y="383.0">com.edujlac.command.commands.LightOnCommand</node>
+    <node x="386.59523809523813" y="328.0">com.edujlac.command.invoker.RemoteControl</node>
+    <node x="1419.6904761904764" y="383.0">com.edujlac.command.commands.CeilingFanOffCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.edujlac.command.invoker.RemoteControl" target="com.edujlac.command.commands.Command">
+      <point x="132.375" y="-114.0" />
+      <point x="695.4702380952381" y="298.0" />
+      <point x="584.1208561175666" y="298.0" />
+      <point x="11.272727272727252" y="38.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.receiver.Stereo">
+      <point x="21.28571428571422" y="-27.0" />
+      <point x="942.8809523809523" y="596.0" />
+      <point x="1182.095238095238" y="596.0" />
+      <point x="1182.095238095238" y="298.0" />
+      <point x="1131.3540812257918" y="298.0" />
+      <point x="38.25" y="82.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.commands.CeilingFanOnCommand">
+      <point x="42.571428571428555" y="-27.0" />
+      <point x="964.1666666666667" y="626.0" />
+      <point x="1349.6904761904764" y="626.0" />
+      <point x="50.0" y="59.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.StereoOffCommand" target="com.edujlac.command.receiver.Stereo">
+      <point x="0.0" y="-59.0" />
+      <point x="1083.595238095238" y="308.0" />
+      <point x="1080.3540812257918" y="308.0" />
+      <point x="-12.75" y="82.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.receiver.Light">
+      <point x="-63.85714285714289" y="-27.0" />
+      <point x="857.7380952380952" y="656.0" />
+      <point x="7.095238095238074" y="656.0" />
+      <point x="7.095238095238074" y="298.0" />
+      <point x="51.22744360902277" y="298.0" />
+      <point x="-28.0" y="59.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.invoker.RemoteControl">
+      <point x="-14.19047619047626" y="-27.0" />
+      <point x="907.4047619047619" y="586.0" />
+      <point x="651.3452380952381" y="586.0" />
+      <point x="88.25" y="114.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.receiver.CeilingFan">
+      <point x="63.85714285714289" y="-27.0" />
+      <point x="985.452380952381" y="656.0" />
+      <point x="1638.1904761904764" y="656.0" />
+      <point x="1638.1904761904764" y="298.0" />
+      <point x="1584.7826526543631" y="298.0" />
+      <point x="38.5" y="114.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.LightOffCommand" target="com.edujlac.command.receiver.Light">
+      <point x="0.0" y="-59.0" />
+      <point x="281.5952380952381" y="248.0" />
+      <point x="125.89411027568951" y="248.0" />
+      <point x="46.66666666666674" y="59.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.StereoOnWithCDCommand" target="com.edujlac.command.receiver.Stereo">
+      <point x="72.0" y="-59.0" />
+      <point x="939.5952380952381" y="308.0" />
+      <point x="1054.8540812257918" y="308.0" />
+      <point x="-38.25" y="82.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.StereoOffCommand" target="com.edujlac.command.commands.Command">
+      <point x="-58.66666666666663" y="-59.0" />
+      <point x="1024.9285714285716" y="278.0" />
+      <point x="606.6663106630212" y="278.0" />
+      <point x="33.81818181818187" y="38.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.commands.Command">
+      <point x="-28.380952380952408" y="-27.0" />
+      <point x="893.2142857142858" y="606.0" />
+      <point x="376.0952380952381" y="606.0" />
+      <point x="376.0952380952381" y="288.0" />
+      <point x="539.0299470266575" y="288.0" />
+      <point x="-33.81818181818187" y="38.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.CeilingFanOnCommand" target="com.edujlac.command.receiver.CeilingFan">
+      <point x="66.66666666666674" y="-59.0" />
+      <point x="1366.3571428571431" y="308.0" />
+      <point x="1507.7826526543631" y="308.0" />
+      <point x="-38.5" y="114.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.commands.StereoOffCommand">
+      <point x="14.190476190476147" y="-27.0" />
+      <point x="935.7857142857142" y="586.0" />
+      <point x="1127.595238095238" y="586.0" />
+      <point x="44.0" y="59.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.CeilingFanOffCommand" target="com.edujlac.command.commands.Command">
+      <point x="-69.33333333333326" y="-59.0" />
+      <point x="1454.3571428571431" y="258.0" />
+      <point x="629.2117652084758" y="258.0" />
+      <point x="56.363636363636374" y="38.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.StereoOnWithCDCommand" target="com.edujlac.command.commands.Command">
+      <point x="-72.0" y="-59.0" />
+      <point x="795.5952380952381" y="288.0" />
+      <point x="595.3935833902939" y="288.0" />
+      <point x="22.545454545454504" y="38.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.commands.StereoOnWithCDCommand">
+      <point x="0.0" y="-27.0" />
+      <point x="54.0" y="59.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.LightOnCommand" target="com.edujlac.command.commands.Command">
+      <point x="53.33333333333326" y="-59.0" />
+      <point x="150.92857142857133" y="268.0" />
+      <point x="516.484492481203" y="268.0" />
+      <point x="-56.363636363636374" y="38.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.LightOnCommand" target="com.edujlac.command.receiver.Light">
+      <point x="-53.33333333333326" y="-59.0" />
+      <point x="44.261904761904816" y="308.0" />
+      <point x="69.89411027568951" y="308.0" />
+      <point x="-9.333333333333258" y="59.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.commands.LightOnCommand">
+      <point x="-56.761904761904816" y="-27.0" />
+      <point x="864.8333333333333" y="646.0" />
+      <point x="57.595238095238074" y="646.0" />
+      <point x="-40.0" y="59.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.CeilingFanOffCommand" target="com.edujlac.command.receiver.CeilingFan">
+      <point x="69.33333333333337" y="-59.0" />
+      <point x="1593.0238095238096" y="308.0" />
+      <point x="1559.1159859876966" y="308.0" />
+      <point x="12.833333333333258" y="114.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.commands.LightOffCommand">
+      <point x="-42.57142857142867" y="-27.0" />
+      <point x="879.0238095238094" y="626.0" />
+      <point x="239.59523809523807" y="626.0" />
+      <point x="-42.0" y="59.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.CeilingFanOnCommand" target="com.edujlac.command.commands.Command">
+      <point x="-66.66666666666674" y="-59.0" />
+      <point x="1233.0238095238096" y="268.0" />
+      <point x="617.9390379357485" y="268.0" />
+      <point x="45.09090909090912" y="38.0" />
+    </edge>
+    <edge source="com.edujlac.command.commands.LightOffCommand" target="com.edujlac.command.commands.Command">
+      <point x="56.0" y="-59.0" />
+      <point x="337.5952380952381" y="278.0" />
+      <point x="527.7572197539303" y="278.0" />
+      <point x="-45.09090909090912" y="38.0" />
+    </edge>
+    <edge source="com.edujlac.command.RemoteLoader" target="com.edujlac.command.commands.CeilingFanOffCommand">
+      <point x="56.761904761904816" y="-27.0" />
+      <point x="978.3571428571429" y="646.0" />
+      <point x="1575.6904761904764" y="646.0" />
+      <point x="52.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="839.875" y="409.12500000000006" />
+  <SelectedNodes>
+    <node>com.edujlac.command.RemoteLoader</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
